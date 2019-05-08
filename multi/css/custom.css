@@ -1,0 +1,164 @@
+body{
+ 
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+h1{
+	font-size:30px;
+	text-transform: uppercase;
+}
+p{
+	font-size:12px;
+	padding-bottom: 5px;
+
+}
+.icon{
+	color: #6EBD6D;
+}
+.learn{
+ width: 70px;
+    color: white;
+    background-color: #6EBD6D;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4px 0;
+    border-radius: 15px;
+}
+.signup{
+	 background: url(../background.jpg);
+	 background-size: cover;
+	 width: 1200px;
+	 height: 800px;
+	 margin-right: auto;
+	 margin-left: auto;
+	 overflow: hidden;
+	 
+	 }
+.header{
+ width: 1200px;
+ text-align: center;
+ vertical-align: middle;
+ background-color: #343A40;
+ margin-left: auto;
+ margin-right: auto;
+}
+.header ul{
+	list-style-type: none;
+	display: block;
+
+}
+.header ul li{
+	display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding: 20px;
+
+
+}
+.header li img{
+	width: 100px;
+	
+}
+.header li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	
+	
+}
+.header li a:hover{
+    color: #6DBD6D;
+    
+    width: 200px;
+    font-size: larger;
+    border-bottom: 1px dotted;
+    text-shadow: black;
+    transition: 0.5s ease;
+    
+	
+}	 
+.transparent{
+	background-color: #202320d1;
+	width: 1200px;
+	height: 800px;
+
+}	 
+.container{
+	width: 50%;
+    text-align: left;
+    
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+  
+
+
+
+}
+.content{
+	color: white;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 110px;
+}
+.signup-form{
+	 width: 300px;
+    color: white;
+    padding-top: 0px;
+    background: #6DBD6D;
+    padding: 10px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.form-content{
+	text-align: center;
+
+}
+.form-content h2{
+	padding: 5px;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+.form-content p{
+	padding: 5px;
+}
+input{
+
+	text-align: left;
+	margin-top: 10px;
+	background: white;
+	padding: 10px;
+	text-transform: capitalize;
+	width: 250px;
+
+
+}
+/*
+form input [type="submit"]
+{
+	text-align: center;
+	margin-top: 20px;
+	background: white;
+	padding: 10px;
+}
+*/
+input[type="submit"]{
+	width: 250px;
+    background-color: #519251;
+    border: none;
+    box-shadow: 1px 5px 0px 1px #508d50;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}

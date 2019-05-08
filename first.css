@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+font-family: 'PT Sans Narrow', sans-serif;
+}
+.firstlook{
+	background: url(bg.jpg);
+	background-size: cover;
+	width: 1200px;
+	height: 800px;
+	margin-right: auto;
+	margin-left: auto;
+
+
+}
+.transparent{
+    background-color: #13102166;
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+
+}
+.content{
+      width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-top: 140px;
+
+}
+.content-bg{
+	
+    padding: 200px;
+    width: 100%
+    transform: scale(0);
+
+}
+.content-bg:hover{
+	
+	background-color: #00000075;
+	transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    box-shadow: -11px 11px 20px #0000004a;
+    transform: scale(0.999);
+}
+.content-bg a{
+	color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.content-bg a:hover{
+
+	
+}
+
+h1 .port{}
+h1 .assign{}
